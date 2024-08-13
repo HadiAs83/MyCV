@@ -1,0 +1,162 @@
+@font-face {
+    font-family: "Vazir";
+    /*اسم دلخواه*/
+    src: url("/Fonts/vazir-font-v16.1.0/Vazir.woff2") format("woff"), url("/Fonts/vazir-font-v16.1.0/Vazir.ttf") format("tff");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "VazirBold";
+    src: url("/Fonts/vazir-font-v16.1.0/Vazir-Bold.woff2") format("woff2"),
+        url("/Fonts/vazir-font-v16.1.0/Vazir-Bold.ttf") format("tff");
+    font-weight: 500;
+}
+
+* {
+    font-family: Vazir, VazirBold, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.ocontainer {
+    width: 1000px;
+    margin: auto;
+    background-color: #f7f4eb;
+}
+
+body {
+    text-align: justify;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #FF9800;
+    /* رنگ نارنجی روشن */
+    color: #f4f4f4;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* hadi */
+
+header h1 {
+    margin: 0;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+.showcase {
+    /* background: url('background.jpg') no-repeat center center/cover; */
+    height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.showcase h1 {
+    font-size: 2.5rem;
+}
+
+.showcase p {
+    font-size: 1.2rem;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.section {
+    padding: 2rem 0;
+}
+
+.section h2 {
+    border-bottom: 2px solid #FF9800;
+    padding-bottom: 0.5rem;
+}
+
+footer {
+    background: #FF9800;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer a {
+    color: #f4f4f4;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer img {
+    vertical-align: middle;
+}
+
+/*  */
+.icons {
+    border-radius: 100%;
+    width: 30px;
+}
+
+.MyPicture {
+    position: absolute;
+    display: block;
+    z-index: 3;
+    margin-top: -90px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+
+
+
+
+/* آیا میتوان اوکانتیر و کانتینر را */
+
+.a_tags {
+    text-decoration: none;
+}
+
+.a_Projects {
+    margin: 20px;
+}
+
+.contactUs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.imgLocation {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.icons {
+    border-radius: 50%;
+    width: 30px;
+}
